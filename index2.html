@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component@1.2.0/dist/aframe-environment-component.min.js"></script>
+</head>
+ 
+</head>
+<body>
+  
+  <a-scene overlay-visibility="" class="fullscreen" fog="density: 0; color: #150060; far: 80" inspector="" keyboard-shortcuts="" screenshot="" vr-mode-ui="" device-orientation-permission-ui="">
+
+    
+    <a-entity environment="active: true; skyType: gradient; fog: 0.81; flatShading: true; groundYScale: 1.28; groundTexture: walkernoise; groundColor: #410101; groundColor2: #d10000; grid: crosses; skyColor: #ffde05; horizonColor: #030198; gridColor: #0f0000; dressingAmount: 0" preset-switcher="" id="environment" visible="">  
+      <a-sky radius="200" theta-length="110" class="environment" material="shader: gradientshader; topColor: #ffde05; bottomColor: #030198" visible="" geometry=""></a-sky>
+      <a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 4.76" shadow="cast: false; receive: false"></a-entity>
+      <a-entity class="environment" position="0 50 0" light="type: hemisphere; color: #ffee82; intensity: 0.6; groundColor: #410101" visible=""></a-entity>
+      <a-entity class="environment" position="-0.11 1 0.33" light="intensity: 0.6; shadowCameraLeft: -10; shadowCameraBottom: -10; shadowCameraRight: 10; shadowCameraTop: 10" visible=""></a-entity>
+      <a-entity rotation="-90 0 0" class="environmentGround environment" visible="" scale="1 1 4.76" shadow="cast: false; receive: false"></a-entity>
+  
+    <a-sound src="./un-dia-paisaje-sonoro-del-paro-nacional.mp3" autoplay="true" position="-12 2 -12" volume="10"></a-sound>
+    <a-sound src="./fotos/subida2/182433371_1700853173638052_6819049170814982829_n.mp4" autoplay="true" position="50 2 -50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/182755504_460322018382900_1632683296328835035_n.mp4" autoplay="true" position="50 2 -25" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/183061252_896053874508096_3638977495911301494_n.mp4" autoplay="true" position="50 2 0" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/hay-que-sacar-al-diablo-eugenio-arellano.mp3" autoplay="true" position="50 2 50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/183559003_174200214606473_1333928054683007802_n.mp4" autoplay="true" position="50 2 25" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/183625948_294118682244709_6958783084757768811_n.mp4" autoplay="true" position="25 2 -50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/183959793_177932427563431_6820403934594563748_n.mp4" autoplay="true" position="25 2 -25" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/184316252_1419954991718690_7843143627465462760_n.mp4" autoplay="true" position="25 2 0" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/189174613_301769308097155_4540320599469448071_n (1).mp4" autoplay="true" position="25 2 25" volume="8"></a-sound>
+    <a-sound src="./fotos/subida2/190886594_159816326155179_5687054274774395072_n.mp4" autoplay="true" position="25 2 50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/191286633_165901422210356_1921350793814124342_n.mp4" autoplay="true" position="0 2 -50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/cancion-sin-miedo-version-colombia.mp3" autoplay="true" position="0 2 25" volume="6"></a-sound>   
+    <a-sound src="./fotos/subida2/191878745_1130032477422874_6389930645784240409_n.mp4" autoplay="true" position="0 2 50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/192230749_1723638434691270_8028870886719562484_n.mp4" autoplay="true" position="-25 2 -50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/192342840_384018982927670_4414809425382070574_n.mp4" autoplay="true" position="-25 2 25" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/192933655_1290776947985494_2782832508759709046_n.mp4" autoplay="true" position="-25 2 50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/193288398_1190428184732215_7621138521168259261_n.mp4" autoplay="true" position="-50 2 -50" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/193348456_465412221427733_1790919173090585735_n.mp4" autoplay="true" position="-50 2 -25" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/193386069_2819918074989558_3361078468347652129_n.mp4" autoplay="true" position="-50 2 0" volume="6"></a-sound>
+    <a-sound src="./fotos/subida2/194016448_766537674064311_6139185784570559660_n.mp4" autoplay="true" position="-50 2 25" volume="5"></a-sound>
+    <a-sound src="./fotos/subida2/51965885_342930366306404_2928586870264692736_n.mp4" autoplay="true" position="-50 2 50" volume="6"></a-sound>
+
+
+
+    <a-box src="./fotos/subida2/181042039_10160960224973065_6378407802795268050_n.jpg"  position="-61 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/181295835_912870236230646_8629116306896925305_n.jpg"  position="-61 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/182813578_4729625170387693_1805425113864698299_n.jpg"  position="-61 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/182848258_10158231670686395_7212254617756012963_n.jpg"  position="-61 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/182946937_829385891121088_6978740260662022671_n.jpg"  position="-61 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/183414200_3934068540013092_9128100116948291187_n.jpg"  position="-61 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/183427002_10225259130369194_4432820648710901312_n.jpg"  position="-61 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/183464344_501844754585695_5338848050536787673_n.jpg"  position="-61 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/184696450_1243424682741877_1331955649406522662_n.jpg"  position="-61 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/187843702_329964265161580_5583716225301612892_n.jpg"  position="-61 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/190432183_10158994885284519_3646569796306691458_n.jpg"  position="-61 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida2/193922223_174189761378375_964218872874765353_n.jpg"  position="-61 1.25 43" height="2"width="2"depth="2"></a-box>
+
+
+
+ <a-box src="./fotos/FB_IMG_1622254218425.jpg"  position="-57 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622254252236.jpg"  position="-57 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622254804510.jpg"  position="-57 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622255399960.jpg"  position="-57 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622256150983.jpg"  position="-57 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622256153684.jpg"  position="-57 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622256335040.jpg"  position="-57 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622256352659.jpg"  position="-57 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622289495301.jpg"  position="-57 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622290208485.jpg"  position="-57 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-104441.png"  position="-57 1.25 -41" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-104513.png"  position="-57 1.25 47" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-104616.png"  position="-57 1.25 -49" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105034.png"  position="-57 1.25 55" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105100.png"  position="-57 1.25 -57" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105117.png"  position="-57 1.25 63" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105226.png"  position="-57 1.25 -65" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105257.png"  position="-57 1.25 71" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105322.png"  position="-57 1.25 -73" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105408.png"  position="-57 1.25 79" height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./fotos/FB_IMG_1622253130815.jpg"  position="-53 1.25 -5" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253164549.jpg"  position="-53 1.25 3" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253198199.jpg"  position="-53 1.25 -13" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253438259.jpg"  position="-53 1.25 11" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253693064.jpg"  position="-53 1.25 -21" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253722644.jpg"  position="-53 1.25 19" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622253840820.jpg"  position="-53 1.25 -29" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622254038856.jpg"  position="-53 1.25 27" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622254050678.jpg"  position="-53 1.25 -37" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622254145467.jpg"  position="-53 1.25 35" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111821.png"  position="-53 1.25 -45" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111843.png"  position="-53 1.25 43" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111916.png"  position="-53 1.25 -53" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111954.png"  position="-53 1.25 51" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-135445.png"  position="-53 1.25 -61" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-135817.png"  position="-53 1.25 59" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-135852.png"  position="-53 1.25 -69" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-135917.png"  position="-53 1.25 67" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-140019.png"  position="-53 1.25 -77" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-140055.png"  position="-53 1.25 75" height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./fotos/FB_IMG_1622248255380.jpg"  position="-49 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622248287092.jpg"  position="-49 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622248357896.jpg"  position="-49 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622248893757.jpg"  position="-49 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249294653.jpg"  position="-49 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249312564.jpg"  position="-49 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249325915.jpg"  position="-49 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249347870.jpg"  position="-49 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249634463.jpg"  position="-49 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622249719432.jpg"  position="-49 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105510.png"  position="-49 1.25 -41" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105548.png"  position="-49 1.25 47" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105637.png"  position="-49 1.25 -49" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105706.png"  position="-49 1.25 55" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105735.png"  position="-49 1.25 -57" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105813.png"  position="-49 1.25 63" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105847.png"  position="-49 1.25 -65" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105923.png"  position="-49 1.25 71" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-110629.png"  position="-49 1.25 -73" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-110803.png"  position="-49 1.25 79" height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./fotos/e029f0f9-8d9c-425a-8b28-8a84d724b45e.jpg"  position="-45 1.25 -5" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/e9bcd57f-0cc9-44fe-b858-696c24b77baf-015_AP_APTOPIX_Colombia_Protests_4.jpg"  position="-45 1.25 3" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1621770650965.jpg"  position="-45 1.25 -13" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1621770704348.jpg"  position="-45 1.25 11" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1621771058772.jpg"  position="-45 1.25 -21" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622118191858.jpg"  position="-45 1.25 19" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622118200314.jpg"  position="-45 1.25 -29" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622118390076.jpg"  position="-45 1.25 27" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622207420395.jpg"  position="-45 1.25 -37" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622118475377.jpg"  position="-45 1.25 35" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-105445.png"  position="-45 1.25 -45" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-110859.png"  position="-45 1.25 43" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-110958.png"  position="-45 1.25 -53" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111026.png"  position="-45 1.25 51" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111123.png"  position="-45 1.25 -61" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111153.png"  position="-45 1.25 59" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111253.png"  position="-45 1.25 -69" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111602.png"  position="-45 1.25 67" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111638.png"  position="-45 1.25 -77" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/Screenshot_20210530-111652.png"  position="-45 1.25 75" height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./FB_IMG_1621254435080.jpg"  position="-41 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621254465130.jpg"  position="-41 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621254489893.jpg"  position="-41 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621526619055.jpg"  position="-41 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621526652133.jpg"  position="-41 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621598797602.jpg"  position="-41 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621599101501.jpg"  position="-41 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621770650965.jpg"  position="-41 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621770704348.jpg"  position="-41 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/FB_IMG_1622118471656.jpg"  position="-41 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-124500.png"  position="-41 1.25 -41" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/Screenshot_20210531-124650.png"  position="-41 1.25 47" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/Screenshot_20210531-124713.png"  position="-41 1.25 -49" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-124733.png"  position="-41 1.25 55" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-124935.png"  position="-41 1.25 -57"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125020.png"  position="-41 1.25 63" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125103.png"  position="-41 1.25 -65" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125127.png"  position="-41 1.25 71" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+
+ <a-box src="./fotos/CP123012423.jpg"  position="-37 1.25 -5" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/columbia-protest-gty-er-210506_1620344905506_hpEmbed_3x2_992.jpg"  position="-37 1.25 3" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/colombia-protests.jpeg"  position="-37 1.25 -13" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/colombia-protest9-02-gty-iwb-210506_1620342660200_hpEmbed_3x2_992.jpg"  position="-37 1.25 11" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/colombia-protest2-02-rd-iwb-210506_1620345280561_hpEmbed_3x2_992.jpg"  position="-37 1.25 -21" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/colombia-nyc-gty-ps-210507_1620393286363_hpEmbed_3x2_992.jpg"  position="-37 1.25 19" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/2a35548058755bbed3d5a3522260f0c2.jpg"  position="-37 1.25 -29" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210514-WA0006.jpg"  position="-37 1.25 27" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210514-WA0003.jpg"  position="-37 1.25 -37" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210512-WA0034.jpg"  position="-37 1.25 35" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/subida8/Screenshot_20210531-125347.png"  position="-37 1.25 -45" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125403.png"  position="-37 1.25 43" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125452.png"  position="-37 1.25 -53" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125508.png"  position="-37 1.25 51" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125538.png"  position="-37 1.25 -61" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125631.png"  position="-37 1.25 59" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125255.png"  position="-37 1.25 -69" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/subida7/subida8/Screenshot_20210531-125312.png"  position="-37 1.25 67" height="2"width="2"depth="2"></a-box>
+
+<a-box src="./FB_IMG_1621251962334.jpg"  position="-33 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621252314560.jpg"  position="-33 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621252432271.jpg"  position="-33 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621252798515.jpg"  position="-33 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621253023011.jpg"  position="-33 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621253068623.jpg"  position="-33 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621253999724.jpg"  position="-33 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621254024823.jpg"  position="-33 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621254363478.jpg"  position="-33 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621254402379.jpg"  position="-33 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/DSC_0047.JPG"  position="-33 1.25 -41" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1621254489893.jpg"  position="-33 1.25 47" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1622460846431.jpg"  position="-33 1.25 -49" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1622460936243.jpg"  position="-33 1.25 55" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1622461537093.jpg"  position="-33 1.25 -57"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1622471750128.jpg"  position="-33 1.25 63" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/FB_IMG_1622471758362.jpg"  position="-33 1.25 -65" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0032.jpg"  position="-33 1.25 71" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0039.jpg"  position="-33 1.25 -73" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0080.jpg"  position="-33 1.25 79" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./IMG-20210504-WA0015.jpg"  position="-29 1.25 -5" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210504-WA0039.jpg"  position="-29 1.25 3" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210504-WA0061.jpg"  position="-29 1.25 -13" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210505-WA0002.jpg"  position="-29 1.25 11" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210505-WA0021.jpg"  position="-29 1.25 -21" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210505-WA0026.jpg"  position="-29 1.25 19" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210505-WA0081.jpg"  position="-29 1.25 -29" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210512-WA0001.jpg"  position="-29 1.25 27" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210512-WA0015.jpg"  position="-29 1.25 -37" height="2"width="2"depth="2"></a-box>
+ <a-box src="./IMG-20210512-WA0016.jpg"  position="-29 1.25 35" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0081.jpg"  position="-29 1.25 -45" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0082.jpg"  position="-29 1.25 43" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210512-WA0083.jpg"  position="-29 1.25 -53" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210513-WA0000.jpg"  position="-29 1.25 51" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/IMG-20210531-WA0000.jpg"  position="-29 1.25 -61" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Los Héroes sin monumento.jpg"  position="-29 1.25 59" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LU0032~1.JPG"  position="-29 1.25 -69" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LU74B7~1.JPG"  position="-29 1.25 67" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LU9BAC~1.JPG"  position="-29 1.25 -77" height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LUISCA~1.JPG"  position="-29 1.25 75" height="2"width="2"depth="2"></a-box>
+
+ <a-box src="./FB_IMG_1621107876805.jpg"  position="-25 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621213822275.jpg"  position="-25 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621250209045.jpg"  position="-25 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251014640.jpg"  position="-25 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251111228.jpg"  position="-25 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251475569.jpg"  position="-25 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251610092.jpg"  position="-25 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251671115.jpg"  position="-25 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251740130.jpg"  position="-25 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621251954988.jpg"  position="-25 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LUISCA~2.JPG"  position="-25 1.25 -41" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LUISCA~3.JPG"  position="-25 1.25 47" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/LUISCA~4.JPG"  position="-25 1.25 -49" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-074831.png"  position="-25 1.25 55" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-074916.png"  position="-25 1.25 -57"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-074945.png"  position="-25 1.25 63" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-111146.png"  position="-25 1.25 -65" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-111248.png"  position="-25 1.25 71" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-115633.png"  position="-25 1.25 -73" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-115721.png"  position="-25 1.25 79" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+
+ <a-box src="/FB_IMG_1620956768043.jpg"  position="-21 1.25 -5" rotation="0 0 0"  height="2" width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621020401137.jpg"  position="-21 1.25 3" rotation="0 0 0"  height="2" width="2"depth="2" ></a-box>
+ <a-box src="./FB_IMG_1621021455071.jpg"  position="-21 1.25 -13" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621021468716.jpg"  position="-21 1.25 11" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621022756592.jpg"  position="-21 1.25 -21" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621022884268.jpg"  position="-21 1.25 19" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621078208583.jpg"  position="-21 1.25 -29" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621078563747.jpg"  position="-21 1.25 27" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621079570607.jpg"  position="-21 1.25 -37" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./FB_IMG_1621080617080.jpg"  position="-21 1.25 35" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-115736.png"  position="-21 1.25 -45" rotation="0 0 0"  height="2" width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-115823.png"  position="-21 1.25 43" rotation="0 0 0"  height="2" width="2"depth="2" ></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-120100.png"  position="-21 1.25 -53" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-120424.png"  position="-21 1.25 51" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-120545.png"  position="-21 1.25 -61" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-120757.png"  position="-21 1.25 59" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-120928.png"  position="-21 1.25 -69" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-121608.png"  position="-21 1.25 67" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-121841.png"  position="-21 1.25 -77" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+ <a-box src="./fotos/subida7/Screenshot_20210531-121900.png"  position="-21 1.25 75" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+
+    <a-box src="./FB_IMG_1620821786311.jpg"  position="-17 1.25 -1" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821808927.jpg"  position="-17 1.25 7" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620822210901.jpg"  position="-17 1.25 -9" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620822287873.jpg"  position="-17 1.25 15" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620822356689.jpg"  position="-17 1.25 -17"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620822377567.jpg"  position="-17 1.25 23" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620834804412.jpg"  position="-17 1.25 -25" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620834832974.jpg"  position="-17 1.25 31" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620929086744.jpg"  position="-17 1.25 -33" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620929115393.jpg"  position="-17 1.25 39" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122009.png"  position="-17 1.25 -41" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122152.png"  position="-17 1.25 47" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122218.png"  position="-17 1.25 -49" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122304.png"  position="-17 1.25 55" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122321.png"  position="-17 1.25 -57"rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122335.png"  position="-17 1.25 63" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122356.png"  position="-17 1.25 -65" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122437.png"  position="-17 1.25 71" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122450.png"  position="-17 1.25 -73" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122533.png"  position="-17 1.25 79" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+
+    <a-box src="./FB_IMG_1620731902133.jpg"  position="-13 1.25 -5" rotation="0 0 0"  height="2" width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731923768.jpg"  position="-13 1.25 3" rotation="0 0 0"  height="2" width="2"depth="2" ></a-box>
+    <a-box src="./FB_IMG_1620731988911.jpg"  position="-13 1.25 -13" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620732057976.jpg"  position="-13 1.25 11" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620732065941.jpg"  position="-13 1.25 -21" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620760223020.jpg"  position="-13 1.25 19" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620761004982.jpg"  position="-13 1.25 -29" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620761241420.jpg"  position="-13 1.25 27" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620820406022.jpg"  position="-13 1.25 -37" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620820490463.jpg"  position="-13 1.25 35" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122557.png"  position="-13 1.25 -45" rotation="0 0 0"  height="2" width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-122626.png"  position="-13 1.25 43" rotation="0 0 0"  height="2" width="2"depth="2" ></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-123155.png"  position="-13 1.25 -53" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-123548.png"  position="-13 1.25 51" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-123633.png"  position="-13 1.25 -61" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-123910.png"  position="-13 1.25 59" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-124128.png"  position="-13 1.25 -69" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-124204.png"  position="-13 1.25 67" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-124325.png"  position="-13 1.25 -77" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/Screenshot_20210531-124433.png"  position="-13 1.25 75" rotation="0 0 0"  height="2"width="2"depth="2"></a-box>
+
+
+    <a-box src="./FB_IMG_1620821081535.jpg"  position="-9 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821097612.jpg"  position="-9 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821122553.jpg"  position="-9 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821325554.jpg"  position="-9 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821332751.jpg"  position="-9 1.25 -17"height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821581367.jpg"  position="-9 1.25 23" height="2"width="2"depth="2">></a-box>
+    <a-box src="./FB_IMG_1620821598208.jpg"  position="-9 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821714056.jpg"  position="-9 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821723332.jpg"  position="-9 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620821754747.jpg"  position="-9 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290208485.jpg"  position="-9 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140145.png"  position="-9 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140215.png"  position="-9 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140243.png"  position="-9 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140313.png"  position="-9 1.25 -57"height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140334.png"  position="-9 1.25 63" height="2"width="2"depth="2">></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140426.png"  position="-9 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140444.png"  position="-9 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140509.png"  position="-9 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140544.png"  position="-9 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620701336499.jpg"  position="-5 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731596291.jpg"  position="-5 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731655049.jpg"  position="-5 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731754137.jpg"  position="-5 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731794658.jpg"  position="-5 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731796834.jpg"  position="-5 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731815113.jpg"  position="-5 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731817115.jpg"  position="-5 1.25 27" height="2"width="2"depth="2">></a-box>
+    <a-box src="./FB_IMG_1620731851319.jpg"  position="-5 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620731886854.jpg"  position="-5 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140603.png"  position="-5 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140659.png"  position="-5 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140736.png"  position="-5 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140751.png"  position="-5 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-140944.png"  position="-5 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141003.png"  position="-5 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141018.png"  position="-5 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141037.png"  position="-5 1.25 67" height="2"width="2"depth="2">></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141104.png"  position="-5 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141140.png"  position="-5 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620568699428.jpg"  position="-1 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1619969064402.jpg"  position="-1 1.25 7"height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609683674.jpg"  position="-1 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620685426598.jpg"  position="-1 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620700992128.jpg"  position="-1 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620701163088.jpg"  position="-1 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620701188225.jpg"  position="-1 1.25 -25" height="2"width="2"depth="2">></a-box>
+    <a-box src="./FB_IMG_1620701221035.jpg"  position="-1 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620701250359.jpg"  position="-1 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620701289112.jpg"  position="-1 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141158.png"  position="-1 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141220.png"  position="-1 1.25 47"height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141253.png"  position="-1 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141305.png"  position="-1 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141342.png"  position="-1 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141400.png"  position="-1 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141450.png"  position="-1 1.25 -65" height="2"width="2"depth="2">></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141505.png"  position="-1 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141536.png"  position="-1 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141554.png"  position="-1 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/Screenshot_20210530-104408.png"  position="3 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1619969455866.jpg"  position="3 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620608475209.jpg"  position="3 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620608633704.jpg"  position="3 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620608870136.jpg"  position="3 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609057810.jpg"  position="3 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609421376.jpg"  position="3 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609427993.jpg"  position="3 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609434375.jpg"  position="3 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609468665.jpg"  position="3 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141610.png"  position="3 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141638.png"  position="3 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141702.png"  position="3 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141730.png"  position="3 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141829.png"  position="3 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141850.png"  position="3 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141906.png"  position="3 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-141922.png"  position="3 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142018.png"  position="3 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142035.png"  position="3 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620095022478.jpg"  position="7 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620096007182.jpg"  position="7 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607099126.jpg"  position="7 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607436966.jpg"  position="7 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607590746.jpg"  position="7 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607682240.jpg"  position="7 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607724305.jpg"  position="7 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607754929.jpg"  position="7 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620607918296.jpg"  position="7 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620608259520.jpg"  position="7 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142118.png"  position="7 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142141.png"  position="7 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142155.png"  position="7 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142210.png"  position="7 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142240.png"  position="7 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142318.png"  position="7 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142336.png"  position="7 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142359.png"  position="7 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142527.png"  position="7 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142544.png"  position="7 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620096619946.jpg"  position="11 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620096971982.jpg"  position="11 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568612780.jpg"  position="11 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620609577191.jpg"  position="11 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568722499.jpg"  position="11 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568727727.jpg"  position="11 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568952870.jpg"  position="11 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620597928384.jpg"  position="11 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620606605748.jpg"  position="11 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620606977916.jpg"  position="11 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142601.png"  position="11 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142622.png"  position="11 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142633.png"  position="11 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142658.png"  position="11 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142739.png"  position="11 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-142812.png"  position="11 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143114.png"  position="11 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143133.png"  position="11 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143144.png"  position="11 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143223.png"  position="11 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620097360355.jpg"  position="15 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620136891549.jpg"  position="15 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620257795958.jpg"  position="15 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620263027084.jpg"  position="15 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620348569812.jpg"  position="15 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620511221285.jpg"  position="15 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620567764497.jpg"  position="15 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620567882992.jpg"  position="15 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568050125.jpg"  position="15 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620568529099.jpg"  position="15 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143358.png"  position="15 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143418.png"  position="15 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143511.png"  position="15 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143530.png"  position="15 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143605.png"  position="15 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143630.png"  position="15 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143643.png"  position="15 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143746.png"  position="15 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143759.png"  position="15 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143853.png"  position="15 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./FB_IMG_1620137356034.jpg"  position="19 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620174505409.jpg"  position="19 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620216672469.jpg"  position="19 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620217126163.jpg"  position="19 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620218580166.jpg"  position="19 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620219949860.jpg"  position="19 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620226192156.jpg"  position="19 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620230092211.jpg"  position="19 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620230164059.jpg"  position="19 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1620230487107.jpg"  position="19 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143908.png"  position="19 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143924.png"  position="19 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-143945.png"  position="19 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144043.png"  position="19 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144057.png"  position="19 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144146.png"  position="19 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144251.png"  position="19 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144308.png"  position="19 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144352.png"  position="19 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144414.png"  position="19 1.25 75" height="2"width="2"depth="2"></a-box>
+    
+    <a-box src="./fotos/FB_IMG_1622290232524.jpg"  position="23 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290244254.jpg"  position="23 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290253693.jpg"  position="23 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290272853.jpg"  position="23 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290280127.jpg"  position="23 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290292812.jpg"  position="23 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290409379.jpg"  position="23 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290423266.jpg"  position="23 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290559122.jpg"  position="23 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622290605906.jpg"  position="23 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144442.png"  position="23 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144518.png"  position="23 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144529.png"  position="23 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144543.png"  position="23 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144607.png"  position="23 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144652.png"  position="23 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144741.png"  position="23 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144809.png"  position="23 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144902.png"  position="23 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144924.png"  position="23 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/FB_IMG_1622311179704.jpg"  position="27 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311219848.jpg"  position="27 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311403711.jpg"  position="27 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311432951.jpg"  position="27 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311532428.jpg"  position="27 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311597424.jpg"  position="27 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311629791.jpg"  position="27 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311737992.jpg"  position="27 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311764874.jpg"  position="27 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311774066.jpg"  position="27 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-144945.png"  position="27 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145008.png"  position="27 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145030.png"  position="27 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145107.png"  position="27 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145126.png"  position="27 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145232.png"  position="27 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145302.png"  position="27 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145333.png"  position="27 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145417.png"  position="27 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145434.png"  position="27 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/FB_IMG_1622311810858.jpg"  position="31 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311834963.jpg"  position="31 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311847248.jpg"  position="31 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311880606.jpg"  position="31 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622311896202.jpg"  position="31 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622312177048.jpg"  position="31 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328197731.jpg"  position="31 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328203756.jpg"  position="31 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328327106.jpg"  position="31 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328343994.jpg"  position="31 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145455.png"  position="31 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145517.png"  position="31 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145543.png"  position="31 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145556.png"  position="31 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145627.png"  position="31 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145651.png"  position="31 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145707.png"  position="31 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145727.png"  position="31 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145745.png"  position="31 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145842.png"  position="31 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/FB_IMG_1622328347677.jpg"  position="35 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328367871.jpg"  position="35 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622328744311.jpg"  position="35 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329041189.jpg"  position="35 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329203453.jpg"  position="35 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329215483.jpg"  position="35 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329250017.jpg"  position="35 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329323625.jpg"  position="35 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622329390191.jpg"  position="35 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622330709128.jpg"  position="35 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145907.png"  position="35 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-145930.png"  position="35 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150007.png"  position="35 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150050.png"  position="35 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150134.png"  position="35 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150152.png"  position="35 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150206.png"  position="35 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150219.png"  position="35 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150300.png"  position="35 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-150309.png"  position="35 1.25 75" height="2"width="2"depth="2"></a-box>
+
+
+    <a-box src="./fotos/FB_IMG_1622330728506.jpg"  position="39 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622330952166.jpg"  position="39 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622330976590.jpg"  position="39 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622330983625.jpg"  position="39 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332450474.jpg"  position="39 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332539644.jpg"  position="39 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332594311.jpg"  position="39 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332778724.jpg"  position="39 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332843030.jpg"  position="39 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622332922952.jpg"  position="39 1.25 39" height="2"width="2"depth="2"></a-box> 
+<a-box src="./fotos/Screenshot_20210530-150309.png"  position="39 1.25 -41" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150320.png"  position="39 1.25 47" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150335.png"  position="39 1.25 -49" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150410.png"  position="39 1.25 55" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150449.png"  position="39 1.25 -57" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150505.png"  position="39 1.25 63" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150533.png"  position="39 1.25 -65" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150549.png"  position="39 1.25 71" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150624.png"  position="39 1.25 -73" height="2"width="2"depth="2"></a-box>
+<a-box src="./fotos/Screenshot_20210530-150911.png"  position="39 1.25 79" height="2"width="2"depth="2"></a-box>
+    
+    <a-box src="./fotos/FB_IMG_1622332955606.jpg"  position="43 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622333254008.jpg"  position="43 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622333265692.jpg"  position="43 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622333292159.jpg"  position="43 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622379768665.jpg"  position="43 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622379883627.jpg"  position="43 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622379901835.jpg"  position="43 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622379925137.jpg"  position="43 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/FB_IMG_1622379943576.jpg"  position="43 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Granada_Colombia_protests_1.jpg"  position="43 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151003.png"  position="43 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151024.png"  position="43 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151039.png"  position="43 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151055.png"  position="43 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151108.png"  position="43 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151121.png"  position="43 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151133.png"  position="43 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151148.png"  position="43 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151215.png"  position="43 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151345.png"  position="43 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/IMG-20210530-WA0000.jpg"  position="47 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/JEP photo.jpg"  position="47 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/merlin_187331379_f01042b3-d807-4cf3-82da-6f775ef0a358-articleLarge.jpg"  position="47 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Paris_Colombia_protests_1.jpg"  position="47 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Paris_Colombia_protests_2.jpg"  position="47 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/protests-continue-colombia-medellin-1168845.jpg"  position="47 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210528-075733.png"  position="47 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210529-172720.png"  position="47 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210529-175253.png"  position="47 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210529-182745.png"  position="47 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151547.png"  position="47 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151559.png"  position="47 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151618.png"  position="47 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151640.png"  position="47 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151722.png"  position="47 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151802.png"  position="47 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151825.png"  position="47 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-151900.png"  position="47 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152011.png"  position="47 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152040.png"  position="47 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/Screenshot_20210530-081707.png"  position="51 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-084531.png"  position="51 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-084726.png"  position="51 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-084815.png"  position="51 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-084902.png"  position="51 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-085306.png"  position="51 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-090022.png"  position="51 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-090104.png"  position="51 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-101739.png"  position="51 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102029.png"  position="51 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152053.png"  position="51 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152115.png"  position="51 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152327.png"  position="51 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152456.png"  position="51 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152604.png"  position="51 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152629.png"  position="51 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152754.png"  position="51 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-152913.png"  position="51 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154307.png"  position="51 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154339.png"  position="51 1.25 75" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/Screenshot_20210530-102106.png"  position="55 1.25 -1" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102342.png"  position="55 1.25 7" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102407.png"  position="55 1.25 -9" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102651.png"  position="55 1.25 15" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102904.png"  position="55 1.25 -17" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-102950.png"  position="55 1.25 23" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103100.png"  position="55 1.25 -25" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103115.png"  position="55 1.25 31" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103220.png"  position="55 1.25 -33" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103303.png"  position="55 1.25 39" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154415.png"  position="55 1.25 -41" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154437.png"  position="55 1.25 47" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154535.png"  position="55 1.25 -49" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154552.png"  position="55 1.25 55" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154900.png"  position="55 1.25 -57" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-154917.png"  position="55 1.25 63" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-155021.png"  position="55 1.25 -65" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-155038.png"  position="55 1.25 71" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-155121.png"  position="55 1.25 -73" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-155137.png"  position="55 1.25 79" height="2"width="2"depth="2"></a-box>
+
+    <a-box src="./fotos/Screenshot_20210530-103351.png"  position="59 1.25 -5" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103430.png"  position="59 1.25 3" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103644.png"  position="59 1.25 -13" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103859.png"  position="59 1.25 11" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-103950.png"  position="59 1.25 -21" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-104104.png"  position="59 1.25 19" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-104147.png"  position="59 1.25 -29" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-104220.png"  position="59 1.25 27" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-104327.png"  position="59 1.25 -37" height="2"width="2"depth="2"></a-box>
+    <a-box src="./FB_IMG_1619969794793.jpg"  position="59 1.25 35" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/Screenshot_20210530-155158.png"  position="59 1.25 -45" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0003.JPG"  position="59 1.25 43" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0005.JPG"  position="59 1.25 -53" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0007.JPG"  position="59 1.25 51" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0009.JPG"  position="59 1.25 -61" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0013.JPG"  position="59 1.25 59" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0018.JPG"  position="59 1.25 -69" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0028.JPG"  position="59 1.25 67" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0039.JPG"  position="59 1.25 -77" height="2"width="2"depth="2"></a-box>
+    <a-box src="./fotos/subida7/DSC_0043.JPG"  position="59 1.25 75" height="2"width="2"depth="2"></a-box>
+
+
+
+  </body>
+        
+</html>
